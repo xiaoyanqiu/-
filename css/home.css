@@ -1,0 +1,279 @@
+a:hover{
+	text-decoration: none;
+}
+#topline1{
+	height: 7px;
+	background-color: #5C307D;
+}
+/*缩小top*/
+#toplinemin1{
+	height: 40px;
+	background-color: #5C307D;
+}
+#searchmin{
+	padding: 8px 15px;
+	white-space:nowrap; /*文字不换行*/
+}
+.btnmin{
+	background-color: #22132D;
+	color: #FFFFFF;
+	height:25px;
+	border: none;
+	border-radius: 0;
+}
+.btnmin:hover{
+	background-color: #22132D;
+	color: #FFFFFF;
+}
+/*放大top*/
+#topline2{
+	height: 1px;
+	background-color: #DEDEDE;
+	display: block;
+	margin-top: 102px;
+}
+#icon{
+	float: left;
+	margin-top: 20px;
+}
+#search{
+	float: right; 
+	margin-top: 20px;
+	width: 189.41px;
+	height: 46px;
+}
+.btnlg{
+	background-color: #6e138a;
+	color: #FFFFFF;
+	border-radius: 0;
+}
+.btnlg:hover{
+	background-color: #22132D;
+	color: #FFFFFF;
+}
+.container-fluid{
+	border: none;
+}
+/*导航*/
+#guide li a:hover{
+	color: #FFFFFF;
+	background-color: #5C307D;
+}
+#guide .open a{
+	background-color: #5C307D;
+	color: #FFFFFF;
+	border: #5C307D;
+}/*下拉之后父级样式*/ 
+.dropdown-menu{	
+	padding: 0px 0px;
+	border: none;
+}
+#guide li ul li a{
+	color: #FFFFFF;
+	background-color:#5C307D;
+	height: 40px;
+	line-height: 30px;
+}
+#guide li ul li a:hover{
+	display: block;
+	color: #FFFFFF;
+	background-color: #3d1c55;
+}
+/*轮播*/
+#lb-text{	
+	line-height:60px;
+/*	margin: -20px -150px;*/
+}
+.text{
+	position: absolute;	
+	left:0px;
+	bottom: 0px;
+	display: block; 
+	color: #FFFFFF;
+	font-size: 1.5em;
+	float: left;
+	padding-left: 20px;
+	background-color: #252525; 
+	opacity: 0.5;
+	height: 15%;
+	width: 100%;
+}
+#lb-text a:hover{
+	color: #FFFFFF;
+}
+.date{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	display: block;
+	height:13%;
+	width: 10%;
+	float: right;
+	background-color: #5C307D;
+	color:#ffc642;
+	text-align: center;
+}
+#btnleft{
+	position: absolute;
+	left:15px;
+}
+#btnright{
+	position: absolute;
+	right: 15px;
+}
+
+/*日历*/
+.page{
+	margin-top: -10px;
+	overflow: hidden;
+}
+.month li{
+	background-color: #5C307D;
+	float: left;
+	list-style-type: none;
+	width: 33px;
+	height: 40px;
+	font-size:12px;
+	text-align: center;
+	line-height: 350%;
+}
+.month a{
+	color: #866c9c;
+}
+.enter a{
+	color: #FFFFFF;
+}
+.news-date{
+	text-align: center;
+	color: #5b31a1;
+	background-color:#edeaf1; 
+	width:70px; 
+	height:70px;
+	float: left;
+	margin-top: 10px;
+}
+li a{
+	color: #FFFFFF;
+	}
+.enter a:hover{
+	color: #FFFFFF;
+}
+
+/*头条新闻*/
+#day-news a{
+	color: #000000;
+	font-size: 16px;
+}
+#day-news a:hover{
+	color: #80649a;
+}
+.news-title a{
+	color: #99979C;
+}
+.news-title a:hover{
+	color: #5b31a1;
+}
+#day-news p{
+	color: #777;
+	padding-top: 8px; 
+	font-size: 90%;
+}
+.news{
+	margin-top: 35px;	
+	/*background-color: #f2f2f2;*/
+	border: #f2f2f2;
+	border-bottom:1px solid #DEDEDE;
+}
+#day-news{
+	margin-top: 10px;
+	}
+/*焦点关注*/
+.jiaodian{
+	margin: 50px 0 100px 0;
+	/*background-color: #f2f2f2;*/
+	border: #f2f2f2;
+}
+#gz-news a{
+	display: block;
+	margin-top: 15px;
+	color: #000000;
+	font-size: 16px;
+}
+#gz-news a:hover{
+	color: #80649a;
+}
+#gz-news p{
+	color: #777;
+	padding-top: 8px; 
+	font-size: 90%;
+}
+#gz-news{
+	height: 250px;
+	margin-top: 10px;
+}
+.double hr{	
+	margin: 0 0;
+	border-top: 2px solid #5C307D;
+}
+.single hr{
+	margin: 0 0;
+	border-top: 2px solid #E0823D; 
+}
+/*常用链接*/
+.link{
+	margin-top: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.cylink{
+	white-space:nowrap; /*文字不换行*/
+	overflow:hidden;
+	border: none;
+	border-bottom:1px solid #CCCCCC;
+	background-color: #F8F7F4;
+}
+.linkpic{
+	border: none;
+	background-color: #F8F7F4;
+	border-bottom:1px solid #F8F7F4;
+}
+.link img{
+	width: 22%;
+	height: 22%;
+}
+.link a{
+	color: #000000;
+	font-size: 11px;
+}
+.link a:hover{
+	color: #4F608C;
+}
+/*more*/
+.more{
+	padding-top: 50px;
+}
+.table tbody tr td{
+	line-height: 6px;
+}
+.table a{
+	color:#5E5E5E;
+	font-size: 11px;
+}
+.table a:hover{
+	color: #4F608C;
+}
+.table thead a{
+	overflow:hidden;
+	/*white-space:nowrap;*/ 
+	color: #22132d;
+	font-size: 15px;
+}
+/*最底部*/
+.down{
+	font-size: 11px;
+	color: #a5a2a7;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #22122D;
+	line-height: 20px;
+}
